@@ -1,0 +1,6 @@
+@Minisuper.API_HostAddress = http://localhost:5119
+
+GET {{Minisuper.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

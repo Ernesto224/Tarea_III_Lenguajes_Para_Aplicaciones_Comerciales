@@ -1,0 +1,7 @@
+C:\Users\Ernesto\Desktop\Minisuper.API\VegaRodriguezErnesto_C08380_MelgaraMurilloJesner_C14644_Tarea_III_IF4101\obj\Debug\net8.0\MinisuperZeus.API.csproj.AssemblyReference.cache
+C:\Users\Ernesto\Desktop\Minisuper.API\VegaRodriguezErnesto_C08380_MelgaraMurilloJesner_C14644_Tarea_III_IF4101\obj\Debug\net8.0\MinisuperZeus.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ernesto\Desktop\Minisuper.API\VegaRodriguezErnesto_C08380_MelgaraMurilloJesner_C14644_Tarea_III_IF4101\obj\Debug\net8.0\MinisuperZeus.API.AssemblyInfoInputs.cache
+C:\Users\Ernesto\Desktop\Minisuper.API\VegaRodriguezErnesto_C08380_MelgaraMurilloJesner_C14644_Tarea_III_IF4101\obj\Debug\net8.0\MinisuperZeus.API.AssemblyInfo.cs
+C:\Users\Ernesto\Desktop\Minisuper.API\VegaRodriguezErnesto_C08380_MelgaraMurilloJesner_C14644_Tarea_III_IF4101\obj\Debug\net8.0\MinisuperZeus.API.csproj.CoreCompileInputs.cache
+C:\Users\Ernesto\Desktop\Minisuper.API\VegaRodriguezErnesto_C08380_MelgaraMurilloJesner_C14644_Tarea_III_IF4101\obj\Debug\net8.0\MinisuperZeus.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ernesto\Desktop\Minisuper.API\VegaRodriguezErnesto_C08380_MelgaraMurilloJesner_C14644_Tarea_III_IF4101\obj\Debug\net8.0\MinisuperZeus.API.MvcApplicationPartsAssemblyInfo.cache

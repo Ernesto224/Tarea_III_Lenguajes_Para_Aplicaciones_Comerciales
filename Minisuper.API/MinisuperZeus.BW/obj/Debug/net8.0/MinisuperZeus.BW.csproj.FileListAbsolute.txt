@@ -1,0 +1,15 @@
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.BW\bin\Debug\net8.0\MinisuperZeus.BW.deps.json
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.BW\bin\Debug\net8.0\MinisuperZeus.BW.dll
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.BW\bin\Debug\net8.0\MinisuperZeus.BW.pdb
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.BW\bin\Debug\net8.0\MinisuperZeus.BC.dll
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.BW\bin\Debug\net8.0\MinisuperZeus.BC.pdb
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.BW\obj\Debug\net8.0\MinisuperZeus.BW.csproj.AssemblyReference.cache
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.BW\obj\Debug\net8.0\MinisuperZeus.BW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.BW\obj\Debug\net8.0\MinisuperZeus.BW.AssemblyInfoInputs.cache
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.BW\obj\Debug\net8.0\MinisuperZeus.BW.AssemblyInfo.cs
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.BW\obj\Debug\net8.0\MinisuperZeus.BW.csproj.CoreCompileInputs.cache
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.BW\obj\Debug\net8.0\Minisupe.9F4BD43E.Up2Date
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.BW\obj\Debug\net8.0\MinisuperZeus.BW.dll
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.BW\obj\Debug\net8.0\refint\MinisuperZeus.BW.dll
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.BW\obj\Debug\net8.0\MinisuperZeus.BW.pdb
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.BW\obj\Debug\net8.0\ref\MinisuperZeus.BW.dll
