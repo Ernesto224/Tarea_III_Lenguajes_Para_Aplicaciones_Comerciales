@@ -14,5 +14,7 @@ namespace MinisuperZeus.BC.Modelos
 
         public decimal Precio { get; set; }
 
+        public bool  EnStock { get; set; }
+
     }
 }

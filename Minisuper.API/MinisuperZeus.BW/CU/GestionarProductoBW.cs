@@ -1,5 +1,7 @@
 ﻿using MinisuperZeus.BC.Modelos;
+using MinisuperZeus.BC.ReglasDeNegocio;
 using MinisuperZeus.BW.Interfaces.BW;
+using MinisuperZeus.BW.Interfaces.DA;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +12,31 @@ namespace MinisuperZeus.BW.CU
 {
     public class GestionarProductoBW : IGestionarProductoBW
     {
-        public Task<IEnumerable<Producto>> GetProductos()
+
+        private readonly IGestionarProductoDA gestionarProductoDA;
+
+        public GestionarProductoBW(IGestionarProductoDA gestionarProductoDA)
         {
-            throw new NotImplementedException();
+            this.gestionarProductoDA = gestionarProductoDA;
         }
+
+        public async Task<IEnumerable<Producto>> GetProductos()
+        {
+            return await this.gestionarProductoDA.GetProductos();
+        }
+
+        public Task<Producto> GetProducto(int id)
+        {
+
+            bool validacion = ValidacionProductos.IdEsValido(id);
+
+            if (!validacion)
+            {
+                return null;
+            }
+
+            return this.gestionarProductoDA.GetProducto(id);
+        }
+
     }
 }

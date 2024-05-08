@@ -8,9 +8,7 @@
 
   <ItemGroup>
     <Folder Include="LogicaDeNegocio\" />
-    <Folder Include="Constantes\" />
     <Folder Include="Enumeradores\" />
-    <Folder Include="ReglasDeNegocio\" />
   </ItemGroup>
 
 </Project>

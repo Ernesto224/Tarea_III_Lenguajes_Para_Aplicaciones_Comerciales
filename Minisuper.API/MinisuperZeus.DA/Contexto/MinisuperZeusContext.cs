@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MinisuperZeus.BC.Modelos;
+using MinisuperZeus.DA.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,5 +17,8 @@ namespace MinisuperZeus.DA.Contexto
         }
 
         public DbSet<ProductoDA> productoDAs { get; set; }
+
+        public DbSet<DeseoDA> deseoDAs { get; set; }
+
     }
 }

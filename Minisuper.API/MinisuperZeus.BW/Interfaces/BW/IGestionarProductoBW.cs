@@ -10,5 +10,8 @@ namespace MinisuperZeus.BW.Interfaces.BW
     public interface IGestionarProductoBW
     {
         public Task<IEnumerable<Producto>> GetProductos();
+
+        public Task<Producto> GetProducto(int id);
+
     }
 }
