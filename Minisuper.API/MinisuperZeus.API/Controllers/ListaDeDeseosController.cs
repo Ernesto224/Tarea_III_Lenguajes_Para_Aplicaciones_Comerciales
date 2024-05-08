@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MinisuperZeus.API.Utilitarios;
 using MinisuperZeus.BC.Constantes;
+using MinisuperZeus.BC.Modelos;
 using MinisuperZeus.BW.Interfaces.BW;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -15,6 +17,20 @@ namespace MinisuperZeus.API.Controllers
         public ListaDeDeseosController(IGestionarListaDeDeseosBW gestionarListaDeDeseosBW) 
         {
             this.gestionarListaDeDeseosBW = gestionarListaDeDeseosBW;
+        }
+
+        // GET: api/<ListaDeDeseosController>
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<ProductoDTO>>> GetProductos()
+        {
+            var deseos = await this.gestionarListaDeDeseosBW.GetListaDeDeseos();
+
+            if (deseos is null)
+            {
+                return NotFound(null);
+            }
+
+            return Ok(DeseoDTOMapper.ConvertirDeseosADeseosDTOs(deseos));
         }
 
         // GET: api/<ListaDeDeseosController>

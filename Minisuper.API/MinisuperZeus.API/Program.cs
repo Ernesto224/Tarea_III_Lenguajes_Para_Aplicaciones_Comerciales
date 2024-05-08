@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using MinisuperZeus.BC.Constantes;
 using MinisuperZeus.BW.CU;
 using MinisuperZeus.BW.Interfaces.BW;
 using MinisuperZeus.BW.Interfaces.DA;
@@ -14,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<MinisuperZeusContext>(options =>
 {
     // Usar la cadena de conexi?n desde la configuraci?n
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ConectionString"));
+    options.UseSqlServer(ConnectionStringDb.ConnectionString);
     // Otros ajustes del contexto de base de datos pueden ser configurados aqu?, si es necesario
 });
 
@@ -42,11 +43,11 @@ app.UseCors(options =>
 
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//if (app.Environment.IsDevelopment())
+//{
+app.UseSwagger();
+app.UseSwaggerUI();
+//}
 
 app.UseHttpsRedirection();
 

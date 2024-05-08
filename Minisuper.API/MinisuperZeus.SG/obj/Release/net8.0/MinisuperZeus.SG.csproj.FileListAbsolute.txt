@@ -1,0 +1,11 @@
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.SG\bin\Release\net8.0\MinisuperZeus.SG.deps.json
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.SG\bin\Release\net8.0\MinisuperZeus.SG.dll
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.SG\bin\Release\net8.0\MinisuperZeus.SG.pdb
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.SG\obj\Release\net8.0\MinisuperZeus.SG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.SG\obj\Release\net8.0\MinisuperZeus.SG.AssemblyInfoInputs.cache
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.SG\obj\Release\net8.0\MinisuperZeus.SG.AssemblyInfo.cs
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.SG\obj\Release\net8.0\MinisuperZeus.SG.csproj.CoreCompileInputs.cache
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.SG\obj\Release\net8.0\MinisuperZeus.SG.dll
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.SG\obj\Release\net8.0\refint\MinisuperZeus.SG.dll
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.SG\obj\Release\net8.0\MinisuperZeus.SG.pdb
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.SG\obj\Release\net8.0\ref\MinisuperZeus.SG.dll

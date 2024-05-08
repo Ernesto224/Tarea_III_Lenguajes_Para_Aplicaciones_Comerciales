@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MinisuperZeus.DA.Entidades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,8 @@ namespace MinisuperZeus.BW.Interfaces.DA
 {
     public interface IGestionarListaDeDeseosDA
     {
+        public Task<IEnumerable<Deseo>> GetListaDeDeseos();
+
         public Task<bool> AgregarALaLista(int idProducto);
 
         public Task<bool> EliminarDeLaLista(int idProducto);

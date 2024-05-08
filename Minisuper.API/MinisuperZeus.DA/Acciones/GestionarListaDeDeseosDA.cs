@@ -154,6 +154,26 @@ namespace MinisuperZeus.DA.Acciones
         }
 
         /*
+         * Metodo para listar todos los elementos de la lista de deseos
+         */
+        public async Task<IEnumerable<Deseo>> GetListaDeDeseos()
+        {
+            if (minisuperZeusContext.productoDAs is null)
+            {
+                return null;
+            }
+
+            return await this.minisuperZeusContext.deseoDAs
+                .Select(deseo => new Deseo()
+                {
+                    IDDeseo = deseo.IDDeseo,
+                    IDProducto = deseo.IDProducto,
+                    Cantidad = deseo.Cantidad,
+                }
+                ).ToListAsync();
+        }
+
+        /*
          * Este metodo se dedica a calcular el monto total a pagar de los productos de la lista de deseos, multiplicando el precio individual de cada
          * producto por su cantidad, para esto se optienen los valores de deseo, como lo que seria el producto y la cantidad, luego se verifica si hay productos
          * validos sino el monto de pago es 0, de lo contrario se realiza la suma de los elementos necesarios de la lista  de valores, luego calcula el valor del 

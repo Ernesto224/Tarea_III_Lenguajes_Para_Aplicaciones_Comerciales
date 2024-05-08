@@ -1,0 +1,17 @@
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\bin\Release\net8.0\MinisuperZeus.DA.deps.json
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\bin\Release\net8.0\MinisuperZeus.DA.dll
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\bin\Release\net8.0\MinisuperZeus.DA.pdb
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\bin\Release\net8.0\MinisuperZeus.BC.dll
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\bin\Release\net8.0\MinisuperZeus.BW.dll
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\bin\Release\net8.0\MinisuperZeus.BC.pdb
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\bin\Release\net8.0\MinisuperZeus.BW.pdb
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\obj\Release\net8.0\MinisuperZeus.DA.csproj.AssemblyReference.cache
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\obj\Release\net8.0\MinisuperZeus.DA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\obj\Release\net8.0\MinisuperZeus.DA.AssemblyInfoInputs.cache
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\obj\Release\net8.0\MinisuperZeus.DA.AssemblyInfo.cs
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\obj\Release\net8.0\MinisuperZeus.DA.csproj.CoreCompileInputs.cache
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\obj\Release\net8.0\Minisupe.239E37E8.Up2Date
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\obj\Release\net8.0\MinisuperZeus.DA.dll
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\obj\Release\net8.0\refint\MinisuperZeus.DA.dll
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\obj\Release\net8.0\MinisuperZeus.DA.pdb
+C:\Users\Ernesto\Desktop\Minisuper.API\MinisuperZeus.DA\obj\Release\net8.0\ref\MinisuperZeus.DA.dll

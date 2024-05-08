@@ -1,6 +1,7 @@
 ﻿using MinisuperZeus.BC.ReglasDeNegocio;
 using MinisuperZeus.BW.Interfaces.BW;
 using MinisuperZeus.BW.Interfaces.DA;
+using MinisuperZeus.DA.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -66,6 +67,11 @@ namespace MinisuperZeus.BW.CU
             }
 
             return await this.gestionarListaDeDeseosDA.EliminarDeLaLista(idProducto);
+        }
+
+        public async Task<IEnumerable<Deseo>> GetListaDeDeseos()
+        {
+            return await this.gestionarListaDeDeseosDA.GetListaDeDeseos();
         }
 
         public async Task<decimal> TotalAPagarConIVA(decimal impuesto)
