@@ -37,12 +37,12 @@ namespace MinisuperZeus.API.Controllers
         {
             var producto = await this.gestionarProductoBW.GetProducto(id);
 
-            //if (producto is null)
-            //{
-            //    return BadRequest();
-            //}
+            if (producto is null)
+            {
+                return NotFound(false);
+            }
 
-            return Ok(producto);
+            return Ok(ProductoDTOMapper.ConvertirProductoADTO(producto));
         }
 
     }

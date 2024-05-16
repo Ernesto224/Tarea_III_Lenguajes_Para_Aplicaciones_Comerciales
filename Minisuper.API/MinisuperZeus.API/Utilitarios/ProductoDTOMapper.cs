@@ -25,7 +25,13 @@ namespace MinisuperZeus.API.Utilitarios
 
         public static ProductoDTO ConvertirProductoADTO(Producto producto) 
         {
-            return new ProductoDTO() {IDProducto = producto.IDProducto, NombreProducto = producto.NombreProducto, Precio = producto.Precio };
+            return new ProductoDTO() 
+            {
+                IDProducto = producto.IDProducto, 
+                NombreProducto = producto.NombreProducto, 
+                Precio = producto.Precio, 
+                EnStock = producto.Stock > 0
+            };
         }
     }
 }
