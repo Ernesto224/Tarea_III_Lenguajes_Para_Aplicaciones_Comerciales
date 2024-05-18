@@ -35,6 +35,11 @@ namespace MinisuperZeus.API.Controllers
         [HttpGet("BuscarProducto/")]
         public async Task<IActionResult> GetProducto(int id)
         {
+            if (id == 0)
+            {
+                return NotFound(false);
+            }
+
             var producto = await this.gestionarProductoBW.GetProducto(id);
 
             if (producto is null)

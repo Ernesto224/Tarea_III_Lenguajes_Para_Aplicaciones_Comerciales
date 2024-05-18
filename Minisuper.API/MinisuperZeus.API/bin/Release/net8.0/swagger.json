@@ -42,7 +42,7 @@
           "200": {
             "description": "Success",
             "schema": {
-              "format": "double",
+              "format": "float",
               "type": "number"
             }
           }
