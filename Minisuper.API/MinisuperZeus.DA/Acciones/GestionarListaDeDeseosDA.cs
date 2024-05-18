@@ -179,20 +179,20 @@ namespace MinisuperZeus.DA.Acciones
          * validos sino el monto de pago es 0, de lo contrario se realiza la suma de los elementos necesarios de la lista  de valores, luego calcula el valor del 
          * impuesto y por ultimo calcula el total para retornarlo.
          */
-        public async Task<decimal> TotalAPagarConIVA(decimal impuesto)
+        public async Task<float> TotalAPagarConIVA(float impuesto)
         {
             var valores = await this.minisuperZeusContext.deseoDAs.Select(deseo => new { Precio = deseo.Producto.Precio, Cantidad = deseo.Cantidad }).ToListAsync();
 
             if (valores is null)
             {
-                return 0.0m;
+                return 0.0f;
             }
 
-            decimal sumaMontos = valores.Sum(valores => valores.Precio * valores.Cantidad);
+            float sumaMontos = (float)valores.Sum(valores => valores.Precio * valores.Cantidad);
 
-            decimal valorInpuesto = sumaMontos * impuesto;
+            float valorInpuesto = sumaMontos * impuesto;
 
-            decimal totalAPagar = sumaMontos + valorInpuesto;
+            float totalAPagar = sumaMontos + valorInpuesto;
 
             return totalAPagar;
 

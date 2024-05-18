@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Ernesto\\Desktop\\Minisuper.API\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{86CB9288-FC16-4981-9938-D89B73F04A0C}|MinisuperZeus.DA\\MinisuperZeus.DA.csproj|c:\\users\\ernesto\\desktop\\minisuper.api\\minisuperzeus.da\\acciones\\gestionarlistadedeseosda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86CB9288-FC16-4981-9938-D89B73F04A0C}|MinisuperZeus.DA\\MinisuperZeus.DA.csproj|solutionrelative:minisuperzeus.da\\acciones\\gestionarlistadedeseosda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F4C810-A5E2-4FC2-ADB7-DE9AB08CB2C1}|MinisuperZeus.API\\MinisuperZeus.API.csproj|c:\\users\\ernesto\\desktop\\minisuper.api\\minisuperzeus.api\\controllers\\listadedeseoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F4C810-A5E2-4FC2-ADB7-DE9AB08CB2C1}|MinisuperZeus.API\\MinisuperZeus.API.csproj|solutionrelative:minisuperzeus.api\\controllers\\listadedeseoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F4C810-A5E2-4FC2-ADB7-DE9AB08CB2C1}|MinisuperZeus.API\\MinisuperZeus.API.csproj|C:\\Users\\Ernesto\\Desktop\\Minisuper.API\\minisuperzeus.api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F4C810-A5E2-4FC2-ADB7-DE9AB08CB2C1}|MinisuperZeus.API\\MinisuperZeus.API.csproj|solutionrelative:minisuperzeus.api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,49 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GestionarListaDeDeseosDA.cs",
-              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Minisuper.API\\MinisuperZeus.DA\\Acciones\\GestionarListaDeDeseosDA.cs",
-              "RelativeDocumentMoniker": "MinisuperZeus.DA\\Acciones\\GestionarListaDeDeseosDA.cs",
-              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Minisuper.API\\MinisuperZeus.DA\\Acciones\\GestionarListaDeDeseosDA.cs",
-              "RelativeToolTip": "MinisuperZeus.DA\\Acciones\\GestionarListaDeDeseosDA.cs",
-              "ViewState": "AQIAAKUAAAAAAAAAAAAmwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T22:14:02.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductoController.cs",
-              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Minisuper.API\\MinisuperZeus.API\\Controllers\\ProductoController.cs",
-              "RelativeDocumentMoniker": "MinisuperZeus.API\\Controllers\\ProductoController.cs",
-              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Minisuper.API\\MinisuperZeus.API\\Controllers\\ProductoController.cs",
-              "RelativeToolTip": "MinisuperZeus.API\\Controllers\\ProductoController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T18:28:07.142Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListaDeDeseosController.cs",
-              "DocumentMoniker": "C:\\Users\\Ernesto\\Desktop\\Minisuper.API\\MinisuperZeus.API\\Controllers\\ListaDeDeseosController.cs",
-              "RelativeDocumentMoniker": "MinisuperZeus.API\\Controllers\\ListaDeDeseosController.cs",
-              "ToolTip": "C:\\Users\\Ernesto\\Desktop\\Minisuper.API\\MinisuperZeus.API\\Controllers\\ListaDeDeseosController.cs",
-              "RelativeToolTip": "MinisuperZeus.API\\Controllers\\ListaDeDeseosController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwCsAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T18:27:38.631Z",
-              "EditorCaption": ""
             }
           ]
         }

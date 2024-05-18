@@ -74,7 +74,7 @@ namespace MinisuperZeus.BW.CU
             return await this.gestionarListaDeDeseosDA.GetListaDeDeseos();
         }
 
-        public async Task<decimal> TotalAPagarConIVA(decimal impuesto)
+        public async Task<float> TotalAPagarConIVA(float impuesto)
         {
             return await this.gestionarListaDeDeseosDA.TotalAPagarConIVA(impuesto);
         }

@@ -35,35 +35,35 @@ namespace MinisuperZeus.API.Controllers
 
         // GET: api/<ListaDeDeseosController>
         [HttpGet("TotalAPagarConIVA/")]
-        public async Task<decimal> TotalAPagarConIVA()
+        public async Task<ActionResult<float>> TotalAPagarConIVA()
         {
             return await this.gestionarListaDeDeseosBW.TotalAPagarConIVA(ImpuestoIVACostaRica.IVA);
         }
 
         // POST api/<ListaDeDeseosController>
         [HttpPost("AgregarALaLista/")]
-        public async Task<bool> AgregarALaLista(int idProducto)
+        public async Task<ActionResult<bool>> AgregarALaLista(int idProducto)
         {
            return await this.gestionarListaDeDeseosBW.AgregarALaLista(idProducto);
         }
 
         // PUT api/<ListaDeDeseosController>/5
         [HttpPut("AgregarCantidadProducto/")]
-        public async Task<bool> AgregarCantidadProducto(int idProducto, int cantidad)
+        public async Task<ActionResult<bool>> AgregarCantidadProducto(int idProducto, int cantidad)
         {
             return await this.gestionarListaDeDeseosBW.AgregarCantidadProducto(idProducto, cantidad);
         }
 
         // PUT api/<ListaDeDeseosController>/5
         [HttpPut("EliminarCantidadProducto/")]
-        public async Task<bool> EliminarCantidadProducto(int idProducto, int cantidad)
+        public async Task<ActionResult<bool>> EliminarCantidadProducto(int idProducto, int cantidad)
         {
             return await this.gestionarListaDeDeseosBW.EliminarCantidadProducto(idProducto, cantidad);
         }
 
         // DELETE api/<ListaDeDeseosController>/5
         [HttpDelete("EliminarDeLaLista/")]
-        public async Task<bool> EliminarDeLaLista(int idProducto)
+        public async Task<ActionResult<bool>> EliminarDeLaLista(int idProducto)
         {
             return await this.gestionarListaDeDeseosBW.EliminarDeLaLista(idProducto);
         }

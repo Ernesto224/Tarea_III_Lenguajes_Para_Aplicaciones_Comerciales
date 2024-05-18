@@ -26,7 +26,7 @@ namespace MinisuperZeus.API.Controllers
 
             if (productos is null)
             {
-                return NotFound(null);
+                return NotFound(false);
             }
 
             return Ok(ProductoDTOMapper.ConvertirProductosAProductoDTOs(productos)); 

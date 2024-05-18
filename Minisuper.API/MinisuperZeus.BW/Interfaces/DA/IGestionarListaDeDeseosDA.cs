@@ -15,7 +15,7 @@ namespace MinisuperZeus.BW.Interfaces.DA
 
         public Task<bool> EliminarDeLaLista(int idProducto);
 
-        public Task<decimal> TotalAPagarConIVA(decimal impuesto);
+        public Task<float> TotalAPagarConIVA(float impuesto);
 
         public Task<bool> AgregarCantidadProducto(int idProducto, int cantidad);
 

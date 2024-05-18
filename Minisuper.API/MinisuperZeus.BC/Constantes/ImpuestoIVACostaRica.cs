@@ -8,6 +8,6 @@ namespace MinisuperZeus.BC.Constantes
 {
     public class ImpuestoIVACostaRica
     {
-        public const decimal IVA = 0.13m;
+        public const float IVA = 0.13f;
     }
 }
